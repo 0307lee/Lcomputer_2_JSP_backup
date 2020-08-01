@@ -1,29 +1,33 @@
 # JSP_JavaServerPage
 명덕_Lcomputer
 ==============
-========================================================================================================================================================
+=======================================
+
 설치 java이어서
 
 3 톰캣 (JSP용_front엔드용)
 >>이클(OR spring.io)와 톰캣 연동법
 
-1 server프로잭트 생성
+1 server프로잭트 생성 (상이할수 잇음)
 이클>file>new>other>
 server>server>next>newserver>Apache>tomcat v9.0server (또는 설치버전)>NEXT
 tomcat server>browser>설치경로입력>jre9.0.4 >Finish
 
 2확인
 메뉴바>windows>preferences>server>runtime environments>apach tomcat확인
-
+=====
 3생성법
 [3 1프로젝트생성> 3 2 JSP페이지 작성> 3 3 프로잭트 실행]
  
 [3 1 프로젝트생성]
-file>new>dynamic web proj
+file>new>other>web>dynamic web proj
 >name
 	=JSPBook
 >target runtime
 	= apache tomcat9.0
+
+> OK
+
 
 [3 2  JSP페이지 작성]
 생성한 JSP 파일애서
