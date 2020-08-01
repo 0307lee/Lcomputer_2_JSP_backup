@@ -1,7 +1,7 @@
 # JSP_JavaServerPage
 명덕_Lcomputer
 ==============
-=======================================
+===============
 
 설치 java이어서
 
@@ -22,7 +22,7 @@ tomcat server>browser>설치경로입력>jre9.0.4 >Finish
 [3 1 프로젝트생성]
 file>new>other>web>dynamic web proj
 >name
-	=JSPBook
+	=JSPBook(맘대로)
 >target runtime
 	= apache tomcat9.0
 
