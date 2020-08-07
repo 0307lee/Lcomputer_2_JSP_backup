@@ -13,7 +13,10 @@
 	<%--200728 useBean 같은건 jstl
 	
 	com.id.dao.Person#에서 가져와서 표기하자
+		>>JSPBook>Java Resources>src>(Package)com.id.dao>Person.java활용
+	
 	id.com이라는 도메인에서 dao라는 기능을 하는 package이다.
+	
 	(cf1. 엄연하게는 dao라는 package는 이렇게 생기지 않았다. 
 	cf2. dao보다는 vo를 더 쓴다.
 	cf3. 자바빈즈.또 프로그램이 있다.)
