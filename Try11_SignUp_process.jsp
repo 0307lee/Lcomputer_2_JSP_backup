@@ -5,19 +5,19 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>login process</title>
+<title>SignUp process</title>
 </head>
-  
 <body>
 	<%@ include file="Test19_MySQLdriverLoading.jsp"%>
 	<%
 	request.setCharacterEncoding("utf-8");
-	System.out.println("====실행시작 === ");
+	System.out.println("====signup 실행시작 === ");
 	session.setMaxInactiveInterval(1); //1초간 유지
 	
 	//session으로 받기 (PW 제외한 모든 것들(ex. ID, Name)을 SQL에 보내면 된다.)
 	String user_id_s= request.getParameter("input_id");
 	String user_pw= request.getParameter("input_pw");
+	String user_pw2= request.getParameter("input_pw");
 			
 	//SQL에서 찾기위한 구문 작성
 	String where_id = "";
